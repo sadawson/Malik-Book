@@ -8,32 +8,30 @@ int main () {
         >> z;    
   
     if (x > y && x > z) {
-        cout << x;
+        cout << x << endl;
         if (y > z) {
-            cout << y << z;
+            cout << y << endl << z << endl;
         }
         else {
-            cout << y << z;
+            cout << y << endl << z << endl;
         }//end if
     }//end if
-
-    if (y > x && y > z) {
-        cout << y;
+    else if (y > x && y > z) {
+        cout << y << endl;
         if (x > z) {
-            cout << x << z;
+            cout << x << endl << z << endl;
         }
         else {
-            cout << z << x;
+            cout << z << endl << x << endl;
         }//end if
     }//end if
-
-    if (z > x && z > y) {
-        cout << z;
+    else if (z > x && z > y) {
+        cout << z << endl;
         if (y > x) {
-            cout << y << x;
+            cout << y << endl << x << endl;
         }
         else {
-            cout << x << y;
+            cout << x << endl << y << endl;
         }//end if
     }//end if
 
